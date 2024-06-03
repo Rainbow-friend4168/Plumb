@@ -1,0 +1,75 @@
+body{
+    background-color: #E4B233;
+}
+#username:invalid{
+    outline: 2px double gray;
+}
+#password:invalid{
+    outline: 2px double gray;
+}
+label{
+    display: block;
+    margin: 1%;
+    font-size: 25px;
+}
+button{
+    background-color: red;
+}
+input{
+    border: none;
+    outline: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
+label input{
+    outline: none;
+}
+#data{
+    background-color:rgb(73, 185, 29);
+}
+form:invalid button{
+    pointer-events: none;
+}
+div{
+    text-align: center;
+}
+.div{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    font-size: 25px;
+    transition: all 3s;
+}
+.img{
+    position: absolute;
+    right: 67px;
+}
+div{
+    position: relative;
+}
+a:hover{
+    background-color:rgb(73, 185, 29);
+    color:rgb(255, 255, 255) 
+}
+a:focus{
+    color: rgb(255, 0, 0);
+}
+
+@media screen and (max-width:600px){
+    input{
+        width:60%;
+    }
+    form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
