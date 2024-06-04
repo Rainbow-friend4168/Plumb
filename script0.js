@@ -15,3 +15,10 @@ b.addEventListener("click",()=>{
         document.getElementById("p").innerHTML=p;
     }
 })
+b.addEventListener("click",()=>{
+    answear=document.getElementById("answear").value;
+    if(answear=="Для пільменій"){
+        let p=document.getElementById("p").value="Добре, отримати його ви можете в банку чи у банкоматі";
+        document.getElementById("p").innerHTML=p;
+    }
+})
